@@ -41,8 +41,12 @@ ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24 * 7  # 1 week
 
 # Comma-separated list of allowed frontend origins, e.g.
 # "https://your-app.vercel.app,http://localhost:5500"
-FRONTEND_ORIGINS = os.environ.get("FRONTEND_ORIGIN", "*")
-ALLOWED_ORIGINS = [o.strip() for o in FRONTEND_ORIGINS.split(",")] if FRONTEND_ORIGINS != "*" else ["*"]
+FRONTEND_ORIGINS = os.environ.get("FRONTEND_ORIGIN", "https://glow-store-dusky.vercel.app")
+ALLOWED_ORIGINS = (
+    [o.strip() for o in FRONTEND_ORIGINS.split(",")]
+    if FRONTEND_ORIGINS != "*"
+    else ["*"]
+)
 
 # ---------------------------------------------------------------------------
 # Database setup
