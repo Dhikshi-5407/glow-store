@@ -144,16 +144,16 @@ Base.metadata.create_all(bind=engine)
 # ---------------------------------------------------------------------------
 
 SEED_PRODUCTS = [
-    {"name": "Vitamin C Glow Serum",       "category": "Serum",       "price": 699, "image": "images/vitamin-c-serum.jpg"},
-    {"name": "Niacinamide 10% Serum",      "category": "Serum",       "price": 449, "image": "images/niacinamide-serum.jpg"},
-    {"name": "Hyaluronic Acid Moisturizer","category": "Moisturizer", "price": 549, "image": "images/hyaluronic-moisturizer.jpg"},
-    {"name": "Aloevera Cream",             "category": "Moisturizer", "price": 799, "image": "images/aloevera-cream.jpg"},
-    {"name": "Night Cream",                "category": "Moisturizer", "price": 299, "image": "images/night-cream.jpg"},
-    {"name": "Foaming Face Cleanser",      "category": "Cleanser",    "price": 449, "image": "images/foaming-cleanser.jpg"},
-    {"name": "SPF 50 Sunscreen Gel",       "category": "Sunscreen",   "price": 399, "image": "images/spf50-sunscreen.jpg"},
-    {"name": "Rose Water Face Mist",       "category": "Toner",       "price": 249, "image": "images/rose-water-mist.jpg"},
-    {"name": "Lip treatment Balm",         "category": "Lip Care",    "price": 150, "image": "images/lip-treatment-balm.jpg"},
-    {"name": "Lip Mask",                   "category": "Lip Care",    "price": 250, "image": "images/lip-mask.jpg"},
+    {"name": "Vitamin C Glow Serum",       "category": "Serum",       "price": 350, "image": "images/vitamin.jpg"},
+    {"name": "Niacinamide 10% Serum",      "category": "Serum",       "price": 250, "image": "images/serum.jpg"},
+    {"name": "Hyaluronic Acid Moisturizer","category": "Moisturizer", "price": 550, "image": "images/hydro.jpg"},
+    {"name": "Aloevera Cream",             "category": "Moisturizer", "price": 450, "image": "images/aleo.jpg"},
+    {"name": "Night Cream",                "category": "Moisturizer", "price": 299, "image": "images/night.jpg"},
+    {"name": "Foaming Face Cleanser",      "category": "Cleanser",    "price": 449, "image": "images/wash.jpg"},
+    {"name": "SPF 50 Sunscreen Gel",       "category": "Sunscreen",   "price": 399, "image": "images/sun.jpg"},
+    {"name": "Rose Water Face Mist",       "category": "Toner",       "price": 249, "image": "images/water.jpg"},
+    {"name": "Lip treatment Balm",         "category": "Lip Care",    "price": 150, "image": "images/lip.jpg"},
+    {"name": "Lip Mask",                   "category": "Lip Care",    "price": 250, "image": "images/mask.jpg"},
 ]
 
 
